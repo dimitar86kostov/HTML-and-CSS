@@ -1,0 +1,14 @@
+.blog-posts p {
+    color: grey;
+}
+
+.blog-posts p time {
+    font-style: oblique;
+    color: grey;
+}
+
+span.author {
+    font-style: normal;
+    font-weight: 600;
+    color: grey;
+}

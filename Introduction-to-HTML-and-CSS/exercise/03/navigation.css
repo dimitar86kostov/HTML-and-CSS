@@ -1,0 +1,15 @@
+nav {
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+a[href="https://unsplash.com/photos/a-large-red-flower-on-a-red-background-koldMzng1JU"] {
+    color: red;
+}
+
+.background {
+    background-color: aqua;
+}

@@ -1,0 +1,11 @@
+.author {
+    font-weight: bold;
+}
+
+.comments {
+    background-color: rgb(168, 164, 164);
+}
+
+.comments article:nth-last-of-type(1) {
+    color: wheat;
+}
