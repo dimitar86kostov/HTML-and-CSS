@@ -23,31 +23,27 @@
     background-color: rgb(130, 201, 24);
     text-align: left;
     width: 110;
-    height: 80px;
-    margin: 70px 35px;
-    margin-top: 40px;
-    margin-left: 50px;
+    height: 100px;
+    
+    margin: 25px 40px;
+    
 }
 
 .content {
     background-color: rgb(109, 109, 217);
     text-align: center;
-    width: 300px;
+    width: 22rem;
     height: 2em;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 5px;
+    margin: 1rem 2rem
 }
 
-/* section {
-    border: 1px solid #000;
+section {
     padding: 5%;
-    margin: 5%;
-} */
+    margin: 5% 22%;
+}
 
 div {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border: 2px solid black;
     text-align: left;
     /* margin: 10% 10% 10% 25%; */
