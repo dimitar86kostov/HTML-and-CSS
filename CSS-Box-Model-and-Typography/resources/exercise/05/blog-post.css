@@ -1,0 +1,18 @@
+.box {
+    border: 1px solid #b9b6b6;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 30px auto;
+    max-width: 1000px;
+    font-family: "Lato", sans-serif;
+    padding: 20px;
+    color: #2d2d2d;
+}
+
+.box :last-child {
+    font-style: italic;
+}
+
+.box :nth-child(2) {
+    font-size: 1.2em;
+}
