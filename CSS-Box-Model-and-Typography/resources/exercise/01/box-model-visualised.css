@@ -1,0 +1,42 @@
+.box-model {
+width: 50%;
+margin: 50px auto;
+}
+
+.box-model div {
+    border: 1px dashed #000;
+    margin: 20px;
+    position: relative;
+    padding: 15px;
+}
+
+.absolute {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    padding-left: 7px;
+}
+
+.margin {
+    /* padding: 20px; */
+    text-align: left;
+    left: 5px;
+    background: #ff966f;
+}
+
+.border {
+    /* padding: 20px; */
+background: #ffe8c6;
+}
+
+.padding {
+    /* padding: 20px; */
+    background: #85eb85;
+}
+
+.content {
+    border: 1px dashed #000;
+    text-align: center;
+    font-size: 1.5rem;
+    background: #a3d2e2;
+}

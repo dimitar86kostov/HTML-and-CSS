@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+}
+
+section {
+    border: 1px solid green;
+    padding: 20em;
+}
+
+.blue {
+    box-sizing: border-box;
+    border: 2px solid blue;
+    height: 1100px;
+    width: 55em;
+    padding: 0;
+    margin: 0;
+}
