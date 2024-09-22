@@ -1,0 +1,17 @@
+.box {
+    margin:auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+button {
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+i {
+   
+     font-size: 20px;
+}
