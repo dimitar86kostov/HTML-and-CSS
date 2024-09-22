@@ -1,0 +1,45 @@
+.box {
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+section {
+    padding-top: 10px;
+}
+
+a {
+    color: black;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.button {
+    border: 0.5px solid #ded9d9;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-family:inherit;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+.primary, .icon {
+    background-color: #ddd8d8;;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: papayawhip
+}
+
+.transperant {
+    background-color: white;
+}
