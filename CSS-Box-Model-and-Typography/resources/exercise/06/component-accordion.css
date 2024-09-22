@@ -1,0 +1,19 @@
+details {
+    max-width: 900px;
+    margin: auto;
+    cursor: pointer;
+    padding-left: 10px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.first,
+.second {
+    border: 1px solid grey;
+    border-bottom: 0;
+}
+
+.third {
+    border: 1px solid grey;
+
+}
