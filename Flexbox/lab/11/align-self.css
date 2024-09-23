@@ -1,0 +1,27 @@
+.flex-container {
+    border: 2px solid blue;
+    max-width: 400px;
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+}
+
+.flex-container .flex-item {
+    border: 2px solid black;
+    padding: 20px;
+    background: #eee;
+}
+
+.align-self-flex-start .flex-item:nth-child(2){
+    align-self: flex-start;
+}
+.align-self-flex-end .flex-item:nth-child(2){
+    align-self: flex-end;
+}
+.align-self-center .flex-item:nth-child(2){
+    align-self: center;
+}
+.align-self-baseline .flex-item:nth-child(2){
+    align-self: baseline;
+}
