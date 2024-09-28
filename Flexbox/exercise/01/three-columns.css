@@ -28,7 +28,6 @@ article {
     flex: 0 1 30%;
     flex-direction: row;
     display: flex;
-    flex-direction: row;
 }
 
 header,
