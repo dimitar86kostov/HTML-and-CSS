@@ -26,12 +26,15 @@ body {
 .site>footer {
     flex: 1 0 100%;
     text-align: center;
-    padding: 1em;
+    padding: 0 1em;
 }
-
+.site > header p {
+    font-style:italic;
+}
 .columns {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    margin: 0 40px;
 }
 
 .columns div {
