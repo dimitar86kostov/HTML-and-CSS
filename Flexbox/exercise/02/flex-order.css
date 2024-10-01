@@ -22,7 +22,7 @@ body {
     gap: 1em;
 }
 
-.site > * {
+.site>* {
     border: 2px solid #a5a3a3;
     padding: 2em;
     border-radius: 0.3em;
@@ -42,7 +42,24 @@ body {
     flex: 1 0 auto;
 }
 
-.site.second header {order: 1;}
-.site.second main {order: 3;}
-.site.second aside {order: 2;}
-.site.second footer {order: 4;}
+.site.second header {
+    order: 1;
+}
+
+.site.second main {
+    order: 3;
+}
+
+.site.second aside {
+    order: 2;
+}
+
+.site.second footer {
+    order: 4;
+}
+
+@media (max-width: 400px) {
+    main {
+        flex: 0 0 100% !important;
+    }
+}
