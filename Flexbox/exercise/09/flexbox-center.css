@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    font: 14px/1.5em sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    gap: 2em;
+}
+
+.site {
+    border-radius: 7px;
+    background: white;
+    padding: 2em;
+    max-width: 630px;
+    max-height: 630px;
+}
+
+header {
+    padding-bottom: 1em;
+}
+
+ul, p {
+    padding-bottom: 1em;
+}
+
+ul {
+    padding-left: 1.5em;
+}
