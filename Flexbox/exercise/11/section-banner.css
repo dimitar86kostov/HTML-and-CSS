@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+
+html {
+    font: 14px/1.5 "Lato", Verdana, sans-serif;
+}
+
+body {
+    font: inherit;
+    background: #EEE;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    display: flex;
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #EEE;
+    background: white;
+    padding: 2em;
+    border-radius: 5px;
+    gap: 3em;
+    box-shadow: -0.2em 0.2em 0.5em 0 rgba(0,0,0,0.05);
+}
+
+.rightside {
+    flex: 1 1 70%;
+}
+
+.leftside {
+    flex: 1 1 auto;
+    border: 1px solid #cac9c9;
+    background: #EEE;
+    padding: 2em 9em;
+    border-radius: 3px;
+}
+
+header h3 {
+    opacity: 60%;
+    line-height: 1
+}
+header h1 {
+    font-size: 2em;
+    font-weight: normal;
+    opacity: 0.8;
+} 
+
+p {
+    padding: 10px 0;
+    opacity: 70%;
+}
+
+.btn {
+    padding: 5px 0 0 0;
+    display: flex;
+    gap: 2em;
+}
+
+.btn .primary {
+    background: #663399;
+    border: 0;
+    color: white;
+}
+
+.btn .normal {
+    border: 0;
+    background: #EEE;
+}
+
+.btn .normal,
+.btn .primary {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
