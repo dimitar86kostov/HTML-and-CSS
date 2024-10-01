@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px/1.5em "Lato", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    border: 2px solid green;
+}
+
+section {
+    padding: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section>* {
+    border: 2px solid blue;
+    padding: 2em;
+}
+
+section>*+* {
+    margin-top: 2em;
+}
+
+main {
+    flex: 1 0 auto;
+}
