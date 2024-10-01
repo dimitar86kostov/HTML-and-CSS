@@ -33,6 +33,7 @@ img {
     max-height: 200px;
     margin: auto;
     border-radius: 0.2em;
+    object-fit: cover;
 }
 
 
@@ -51,3 +52,4 @@ img {
     border: 5px solid rgb(53, 52, 52);
     border-radius: 0.2em;
 }
+

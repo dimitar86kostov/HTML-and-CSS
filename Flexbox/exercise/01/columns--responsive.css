@@ -69,3 +69,21 @@ footer::before {
 footer::before {
     margin: 0 auto 30px auto;
 }
+
+@media (max-width: 610px){
+    .columns {
+        display: block;
+        margin: 0;
+        flex: 0 0 100%
+    }
+    .site {
+        margin: 0;
+    }
+    footer p{
+        padding: 0;
+    }
+    .site{
+        width: 100%;
+        margin: 0;
+    }
+}
