@@ -49,3 +49,11 @@ body {
 .calendar .week div:nth-child(7) {
     flex: 1 0 100%;
 }
+
+@media (max-width: 380px) {
+    .notes, 
+    .week {
+        display: inline-block;
+        flex: 0 0 100% !important;
+    }
+}
