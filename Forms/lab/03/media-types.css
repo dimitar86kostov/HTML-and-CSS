@@ -9,18 +9,19 @@ body {
     padding: 2em;
 }
 
-h2, input {
-    margin-top: 2em;
+h2 {
+    padding: 2em;
 }
 
-input {
+textarea {
     display: inline-block;
     padding: 0.5em 0.8em;
     border: 2px solid #ccc;
     border-radius: 0.3em;
     outline: none;
+    margin: 2em 0;
 }
 
-input:focus {
+textarea:focus {
     border-color: #090 
 }
