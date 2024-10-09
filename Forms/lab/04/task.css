@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px/1.5 "Lato", sans-serif;
+    padding: 2em;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+h1 {
+    margin: 20px 0 20px 0;
+}
+
+.multiselect {
+    display: block;
+    min-width: 20ch;
+    min-height: 20ch;
+}
+
+fieldset {
+    padding: 30px;
+    display: block;
+    max-width: 50ch
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+    min-width: 26ch;
+}
+
+fieldset input {
+    display: block;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+}
+
+
+select {
+
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+    outline: none;
+
+}
+
+.firstP {
+    padding-bottom: 2em 0;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
