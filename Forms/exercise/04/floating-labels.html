@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="floating-labels.css">
+    <title>Floating labels</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Login</h2>
+
+        <form>
+
+
+            <p class="field">
+                <label for="email">Email</label> <br>
+                
+                <input type="email" name="email" id="email" required>
+                <br>
+                <i class="info">example: john.doe@gmail.com</i>
+            </p>
+            <p class="field">
+                <label for="password">Password</label><br>
+                
+                <input type="password" id="password" name="password" required>
+                <br>
+                <i class="info">minimum 6 characters, letter and numbers, at least 1 special character</i>
+
+            </p>
+            <p class="field btn">
+
+                <input id="btn" type="submit" value="Login">
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
