@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 12px/1.3 sans-serif;
+    font-weight: bold;
+    background: #eee;
+    display: flex;
+
+}
+
+.container {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background: white;
+    margin: 10em auto;
+    padding: 3em;
+    border-radius: 0.3em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    margin-top: -15px;
+    opacity: 0.4;
+    font-size: 11px;
+}
+
+input {
+    flex: 1 1 100%;
+    padding: 2ch 0;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    margin: 0.3em 0;
+}
+
+input:focus {
+    border-color: green;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.field {
+    position: relative;
+    padding: 10px;
+}
+
+#btn {
+    padding: 2ch 0;
+    background: #eee;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    border: 0;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+label {
+    margin-bottom: -50px;
+    opacity: 0.75;
+    font: 14px;
+}
+
+legend {
+    padding: 10px;
+    opacity: 0.75;
+    font: 12px;
+}
+.login {
+    margin-bottom: 20px;
+}
+.login,
+.additional {
+    padding: 1em;
+    border: 2px solid #eee;
+    border-radius: 0.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#labelDate {
+    padding-bottom: 15px;
+}
+.additional {
+    padding-top: 5px;
+}
+.additional>*{
+    padding: 10px;
+}
