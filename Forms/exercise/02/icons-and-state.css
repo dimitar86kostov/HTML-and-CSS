@@ -18,18 +18,44 @@ body {
     gap: 1em;
     background: white;
     margin: 10em auto;
-    padding: 2em;
+    padding: 3em;
     border-radius: 0.3em;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
 
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    margin-top: -15px;
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 11px;
+}
+
 input {
-    padding: 1ch 6ch;
+    flex: 1 1 100%;
+    padding: 2ch 0;
     border: 2px solid #ccc;
     border-radius: 0.3em;
     outline: none;
     margin: 0.3em 0;
+}
+
+#btn {
+    padding: 2ch 0;
+    background: darkorange;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
 }
 
 input:focus {
@@ -43,7 +69,7 @@ h2 {
 h2::after {
     display: block;
     content: "";
-    width: 50px;
+    width: 100px;
     height: 2px;
     background: #eee;
     margin: 15px 0;
@@ -56,15 +82,19 @@ label::after {
     font-size: large;
 }
 
-button {
-    background: #fea500;
-    padding: 1.8ch 15.2ch;
-    margin: 1em 0;
-    margin-top: 1.5em;
-    border-radius: 0.3em;
-    border: 0;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
+.field {
+    position: relative;
 }
 
+.fa-envelope,
+.fa-key {
+    position: absolute;
+    top: 17px;
+    font-size: 16px;
+    right: 0;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: -20px;
+}
