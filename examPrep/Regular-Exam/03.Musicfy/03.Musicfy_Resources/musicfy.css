@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+}
+
+h1 h2 h3 {
+    font-family: 'Montserrat';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+.logo img {
+    height: 35px;
+    padding-left: 5px;
+}
+
+.menu {
+    padding: 10px 0;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+}
+
+.green {
+    background: #1db954;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+}
+
+.music img {
+    width: 44%;
+    position: absolute;
+    top: 70px;
+    z-index: 2;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.plans>h1 {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.family,
+.individual {
+    background: white;
+    border: 1px solid rgb(65, 65, 65);
+    box-shadow: rgba(99, 99, 99, 0.9) 0px 2px 8px 0px;
+    border-radius: 10px;
+    width: 380px;
+    overflow: hidden;
+}
+
+.individual h2,
+.individual ul li,
+.family h2,
+.family ul li {
+    opacity: 0.68;
+}
+
+.individual ul li,
+.family ul li {
+    list-style: circle;
+    padding: 5px 0;
+    text-align: start;
+}
+
+.individual ul {
+    padding: 20px 50px 30px 50px;
+}
+
+.family ul {
+    padding: 10px 50px 30px 50px;
+
+}
+
+h2 {
+    padding: 20px 0;
+}
+
+.btn {
+    background: #1db954;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 40px;
+}
+
+.plan-footer {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    background: black;
+    width: 100%;
+    color: white;
+    padding: 20px 25px;
+    margin-top: 20px;
+    position: relative;
+    font-size: 17px;
+}
+
+.plan-footer .right {
+    justify-content: center;
+}
+
+.plan-footer p:nth-child(2)::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    left: 190px;
+    bottom: 10px;
+}
+
+.dog {
+
+    display: flex;
+    /* gap: 20px; */
+    padding: 320px 60px 40px 60px;
+}
+
+.dogpal {
+    flex: 1 1 calc(30% - 120px);
+}
+
+.dogpal>img {
+    width: 80%;
+}
+
+.content {
+    flex: 1 1 calc(60% - 120px);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content p {
+    width: 87%;
+    font-size: small;
+    opacity: 0.8;
+}
+
+h3 {
+    width: 100%;
+}
+
+.comparison {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.table {
+    margin: 40px 230px;
+    display: flex;
+    border-radius: 0.3em;
+    background: silver;
+    overflow: hidden;
+}
+
+.table > ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px 10px 10px;
+    flex: 1 1 70%;
+
+}
+
+.table > ul li img {
+    display: flex;
+    justify-content:space-between;
+}
+
+.text {
+    display: flex;
+    flex: 1 1 70%;
+}
+
+.icons {
+    display: flex;
+    flex: 1 1 30%;
+    justify-content: space-around;
+}
+.rows {
+    width: 100%;
+}
+
+.table > ul li:nth-of-type(even){
+    background: rgb(75, 212, 75);
+}
+
+.comparison h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
