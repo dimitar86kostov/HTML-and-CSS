@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+body {
+    font-family: 'Kode Mono', sans-serif;
+    display: flex;
+    background: silver;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    background: rgb(44, 64, 67);
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    margin: 30px 0 40px 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 4px 10px;
+
+}
+
+.btns {
+    display: flex;
+    gap: 0;
+    padding: 0 auto;
+}
+
+.signup {
+    background: rgb(73, 168, 114);
+    color: white;
+    border: 0;
+    padding: 1.2em 5em;
+    flex: 1 1 50%;
+}
+
+.signin:hover {
+    background: rgb(47, 108, 74);
+    cursor: pointer;
+}
+
+.signin {
+    background: rgb(79, 82, 80);
+    color: rgb(201, 191, 191);
+    padding: 1.2em 5em;
+    flex: 1 1 50%;
+    border: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: xx-large;
+}
+
+.field {
+    position: relative;
+}
+
+.inputs input {
+    border: 0.5px solid silver;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background: rgb(44, 64, 67);
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    outline: none;
+}
+
+.inputs label {
+    display: block;
+    color: #929390;
+}
+
+.required {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+.required::after {
+    content: "*";
+    color: rgb(73, 168, 114);
+    padding-left: 5px
+}
+
+.field input {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    gap: 1em;
+}
+
+.flex .field {
+    flex: 1 1 auto;
+}
+
+
+/* .inputs input:nth-child(1) {
+
+    flex: 1 1 calc(50% - 15px);
+}
+
+.inputs input:nth-child(2) {
+
+    flex: 1 1 calc(50% - 15px);
+}
+
+.inputs input:nth-child(3) {
+
+    flex: 1 1 calc(100% - 15px);
+}
+
+.inputs input:nth-child(4) {
+
+    flex: 1 1 calc(100% - 15px);
+} */
+
+.submit {
+    background: rgb(73, 168, 114);
+    color: white;
+    border: 0;
+    margin-top: 1em;
+    padding: 0.5em 5em;
+    width: 100%;
+    font-weight: 800;
+    font-size: xx-large;
+}
