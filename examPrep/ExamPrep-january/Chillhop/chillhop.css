@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    background: black;
+    font: 11px/2 Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    background: white;
+    margin: 10%;
+}
+
+.border {
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.box {
+    border: 3px solid black;
+    border-radius: 9px;
+    margin: 9px 9px 12px 12px;
+    background: rgb(50, 133, 166);
+    padding: 20px 30px;
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 1 1 calc(60% - 20px);
+    padding-bottom: 0;
+}
+
+.image {
+    flex: 1 1 calc(40% - 20px);
+    padding-bottom: 0;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content h4 {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-size: 12px;
+}
+
+.content h1 {
+    color: white;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.content p {
+    font-size: 9.9px;
+    opacity: 0.9;
+}
+
+.content p span {
+    padding-left: 40px;
+}
+
+.contact {
+    border: 1px solid black;
+    border-radius: 0.3em;
+    padding: 1px 10px;
+    color: white;
+    font-weight: bold;
+    background: rgb(188, 89, 105);
+    font-size: smaller;
+}
+
+.more {
+    border: 1px solid black;
+    border-radius: 0.3em;
+    padding: 1px 10px;
+    color: black;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.flex {
+    display: flex;
+    gap: 5em;
+    padding: 10px 5em 0 5em;
+}
