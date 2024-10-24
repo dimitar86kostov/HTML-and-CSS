@@ -1,0 +1,215 @@
+@import url('o	https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section {
+    width: 100%;
+    min-height: 500px;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    margin: -40px;
+    position: relative;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    justify-content: flex-end
+}
+
+.menu {
+    flex: 1 1 70%;
+    margin-left: 270px;
+    padding-top: 25px;
+}
+
+.logo {
+    display: flex;
+    flex: 1 1 30%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+nav.menu ul li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav.menu ul {
+    display: flex;
+    padding: 60px;
+    /* margin-right: 40px; */
+    gap: 1em;
+    font-weight: 600;
+    font-size: 10px;
+    text-shadow: 0.5px 0.5px 1px rgb(59, 58, 58);
+
+}
+
+.info {
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    width: 100%;
+}
+
+.info h1 {
+    font-weight: 700;
+    font-size: xx-large;
+    text-shadow: 0.5px 0.5px 1px rgb(59, 58, 58);
+}
+
+.info p {
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-shadow: 0.5px 0.5px 1px rgb(59, 58, 58);
+
+}
+
+.btn {
+    margin-top: 20px;
+    background: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    color: grey;
+}
+
+.catalog {
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+    background: skyblue;
+    margin-top: 40px;
+}
+
+.catalog h2 {
+    padding-top: 30px;
+    font-weight: bold;
+    text-shadow: 0.2px 0.2px 1px rgb(59, 58, 58);
+    padding-bottom: 5px;
+}
+
+.catalog p {
+    font-style: italic;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 100px;
+    justify-content: space-between;
+}
+
+.single-card {
+    background: #FFF;
+    flex: 1 1 50%;
+    display: flex;
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-right: 10px solid skyblue;
+}
+
+.pic {
+    margin-bottom: -4px;
+}
+
+.pic img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.description h3 {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.description>p {
+    font-size: 13px;
+    text-align: left;
+}
+
+.draws {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    padding: 40px;
+}
+
+.item {
+    flex: 1 1 calc((100% / 3) - 5em);
+    text-align: center;
+}
+
+.single-card2 .pic  img {
+    object-fit: cover;
+    width: 250px;
+    height: 200px;
+} 
+
+.single-card2 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.item h4 {
+    opacity: 0.6;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.item p {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.catalog2 {
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+    background: skyblue;
+    margin-top: 40px;
+}
