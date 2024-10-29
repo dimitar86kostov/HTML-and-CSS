@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font: 14px/1.5 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: relative;
+    background: #f195b2;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.faq {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.faq .border {
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+    color: white;
+    padding: 10px 0 40px 0;
+    font-size: medium;
+}
+
+.menu {
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 0 100px;
+    width: 70%;
+    border-radius: 45px;
+    top: 106px;
+    z-index: 1;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.menu ul li a {
+    font-weight: bold;
+}
+
+.pink {
+    font-size: 57px;
+    display: flex;
+    color: #f195b2;
+    padding: 0 20px;
+}
+
+.blue {
+    color: skyblue;
+}
+
+main {
+    width: 100%;
+    position: relative;
+}
+
+.hero-section {
+    width: 100%;
+    min-height: 1040px;
+    background-image: url('images/carousel-1.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-bottom: 7px solid silver;
+}
+
+.title {
+    margin-top: 300px;
+    text-align: center;
+    width: 60%;
+}
+
+.title h1 {
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.hero-section h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+
+.title a {
+    background: #f195b2;
+    border-radius: 25px;
+    padding: 15px 40px;
+    color: white;
+    font-size: large;
+}
+
+.content {
+    background: #c8e7f8;
+    color: #575858;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h2 {
+    padding-top: 2em;
+    font-size: 50px;
+}
+
+.content h2::before {
+    display: block;
+    content: '';
+    width: 15%;
+    height: 7px;
+    background: #f195b2;
+    margin: 15px auto;
+}
+
+.container {
+    padding: 5px 18em 0 18em;
+    display: flex;
+    gap: 2em;
+    /* min-height: 600px; */
+}
+
+.about,
+.features {
+    flex: 1 1 calc(33% - 2em);
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.about h3,
+.features h3 {
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+.about p,
+.features p {
+    padding: 10px 0;
+}
+
+.image {
+    flex: 1 1 calc(33% - 2em);
+    background-image: url('images/about.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5em;
+
+}
+
+.right-btn {
+    background-color: #62c3e7;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.left-btn {
+    background-color: #f195b2;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: fit-content;
+
+}
+
+.list {
+    font-weight: bold;
+}
+
+.list ul li {
+    font-size: 25px;
+}
+
+.fa-solid {
+    color: rgb(37, 162, 211);
+    font-weight: bold;
+    font-size: larger;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+.container p {
+    opacity: 0.9;
+    font-size: 17px;
+}
+
+.list {
+    opacity: 0.8;
+}
+
+.right-text,
+.left-text {
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-footer {
+    display: flex;
+    gap: 10px;
+}
+
+.social-footer span {
+    border: 4px solid skyblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.social-footer .fa-brands {
+    color: skyblue;
+    padding: 9px 10px;
+    font-size: 25px;
+}
+
+.get {
+    display: flex;
+    gap: 1em;
+}
+
+.left,
+.right {
+    flex: 1 1 calc(50% - 2em);
+    text-align: center;
+    padding-top: 20px;
+    opacity: 0.8;
+}
+
+.left h2,
+.right h2{
+font-size: 18px;
+}
+
+.one {
+    padding-top: 35px;
+}
+
+.right {
+    border-left: 1px solid black;
+    padding-left: 2em;
+}
+
+.rights span {
+    color: #f195b2;
+    margin: 20px;
+}
+
+.rights {
+    margin-top: 3em;
+    margin-bottom: 5em;
+    opacity: 0.8;
+}
+
+.logo {
+    margin-top: 4em
+}
+
+.fa-brands .fa-facebook-f {
+    padding-left: 10px;
+}
